@@ -1,0 +1,110 @@
+/* responsive */
+.pc{}
+.sp560,
+.sp480,
+.sp420,
+.sp380,
+.sp{display: none}
+
+@media screen and (min-width: 751px) {
+a:hover,
+footer .foot_link_list ul li a:hover{color: #333;}
+
+/* a:not([href="#"]):hover{opacity: 0.6} */
+
+.box_menu_service ul li:hover,
+.btn a:hover,
+.shika_btn a:hover{transform: translateY(-10px);color: #fff;}
+
+
+.box_menu_list ul li a:hover,
+.box_news .box_news_list dd a:hover{color: #eb831c}
+
+
+ .box_menu_form dt h4{-webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    -webkit-text-orientation: mixed;
+    -moz-text-orientation: mixed;
+    -ms-text-orientation: mixed;
+    text-orientation: mixed;}
+}
+
+@media screen and (max-width: 750px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    input,
+    button,
+    textarea,
+    select,
+    p,
+    blockquote,
+    th,
+    td,
+    pre,
+    address,
+    li,
+    dt,
+    dd{font-size: 14px;}
+
+
+
+    #wrapper,
+    header,
+    #main,
+    footer,
+    .inner {width: 100% !important;min-width: inherit !important;}
+    .inner {box-sizing: border-box;padding: 0 15px;}
+    .box_sp {display: block;}
+    .box_pc {display: none;}
+    /*---*/
+
+
+    /*==========================================================================*/
+    /*                               ALL                                        */
+    /*==========================================================================*/
+    header{padding-bottom: 0}
+    header h1{display: none}
+
+    nav{display: none;}
+    
+    .ttl h3{font-size: 24px;}
+
+    .btn a{width: 290px;}
+    /*==========================================================================*/
+    /*                               MAIN                                       */
+    /*==========================================================================*/
+    
+
+
+    /* ===========  OVERNOTE ===========  */
+    
+}
+
+@media screen and (max-width: 560px) {
+.pc560{display: none}
+.sp560{display: block}
+}
+
+@media screen and (max-width: 480px) {
+.pc480{display: none}
+.sp480{display: block}
+}
+
+
+@media screen and (max-width: 420px) {
+.pc420{display: none}
+.sp420{display: block}
+
+}
+
+
+@media screen and (max-width: 380px) {
+.pc380{display: none}
+.sp380{display: block}
+}

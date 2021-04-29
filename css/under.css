@@ -1,0 +1,172 @@
+/* DELETE */
+.under header {background: url('../images/u_header.jpg') center no-repeat;background-size: cover;height: 80px;width: 100%;z-index:5}
+.under footer {background: url('../images/u_footer.jpg') center no-repeat;background-size: cover;height: 1156px;width: 100%;}
+/* END DELETE */
+
+.under #main p{margin-bottom: 50px}
+.under #main p.mb05 {margin-bottom: 5px;}
+.under #main p.mb10 {margin-bottom: 10px;}
+
+.under #main a,
+.under #main a.hover_no,
+.under #main a.hover_no:hover{color: #0f4098;text-decoration: underline}
+.under #main a:hover {text-decoration: none}
+
+.under #main .image_l{float: left;margin: 0 30px 30px 0;}
+.under #main .image_r{float: right;margin: 0 0 30px 30px;}
+.under #main .image_l.mb0,
+.under #main .image_r.mb0{margin-bottom: 0}
+.under #main .image_l.mb80,
+.under #main .image_r.mb80{margin-bottom: 80px}
+
+.under #main sup {vertical-align: super;font-size: smaller;font-size: 8px;}
+.under #main .txt_sm{font-size: 80%;}
+
+.under #main .section {padding: 0 0px 100px 0;box-sizing: border-box;margin-bottom: 0}
+.under #main .section:last-child{padding-bottom: 0px;}
+
+.under #main .gg_map{width: 100%;height: 400px}
+.under #main .gg_map iframe{width: 100%;height: 100%}
+
+.under #main h2,
+.under #main h3,
+.under #main h3 span,
+.under #main h4,
+.under #main h5,
+.under #main h6{line-height: 1.6em;letter-spacing: 0.1em;font-weight: 700;margin-bottom: 50px;}
+
+.under #main h2{text-align:center;font-size:48px;letter-spacing: 0;color:#fff;margin-bottom: 0;}
+
+.under #main h3{text-align:center;position:relative;z-index:1;display: flex;justify-content: center;flex-direction: column;}
+.under #main h3 span{margin-bottom: 0;}
+.under #main h3 span.en{font-size: 20px;display: block;text-transform: uppercase;color: #021840;margin-bottom: 10px}
+.under #main h3 span.jp{font-size: 36px;color: #0f4098;letter-spacing: 0;}
+
+.under #main h4{font-size: 30px;position: relative;padding-bottom: 40px;margin-bottom: 50px;text-align: center;}
+.under #main h5{text-align: center;position: relative;}
+.under #main h6{font-size: 20px;border-bottom:#000 1px dotted;border-top:#000 1px dotted;padding:10px 0}
+
+/* TOP INFO */
+.under #main #top_info{background: url('../images/top_info_bg.jpg') center /cover no-repeat;}
+.under #main #top_info .inner{height: 300px;display: flex;justify-content: center;align-items: center;box-sizing: border-box;}
+
+/* TOPIC PATH */
+.under #main #topic_path {margin-bottom: 30px;}
+.under #main #topic_path ul{display: flex;padding: 15px 0;flex-wrap: wrap}
+.under #main #topic_path li{display: inline-block;letter-spacing: 0}
+.under #main #topic_path li a{text-decoration: none;color: #0f4098;}
+.under #main #topic_path li a:hover{text-decoration: underline}
+
+/* BUTTON */
+.under #main .btn_u {}
+.under #main .btn_u a{border: 2px solid #fff;background-image: linear-gradient(-135deg, #fff, #fff 50%, #001d51 50%, #001d51);background-size: 100% 1000%;background-position: bottom;transition: all 0.4s ease;width: 320px;height: 50px;color: #fff;display: flex;text-decoration: none;align-items: center;justify-content: center;position: relative;margin:0 auto;box-sizing: border-box}
+.under #main .btn_u a::before{content: "";width: 15px;height: 2px;background: #fff;position: absolute;right: 0;top: calc(50% - 1px);transition: all ease 0.3s}
+.under #main .btn_u a::after{content: "";width: 15px;height: 2px;background: #001d51;position: absolute;right: -15px;top: calc(50% - 1px);transition: all ease 0.3s}
+.under #main .btn_u a:hover {background-position: top;color: #001d51;border-color: #001d51}
+.under #main .btn_u a:hover::before{background: #001d51}
+
+/* TABLE */
+.under #main table{margin-bottom: 50px;}
+.under #main table.mailform th,
+.under #main table th{font-size:18px;background:none;color:#0f4098;padding:15px;border: none;font-weight: normal;}
+
+.under #main table.tb_block th.bdo{border-bottom-color: #008730}
+.under #main table.tb_block th{}
+.under #main table th:last-child{}
+.under #main table tr:last-child th{}
+.under #main table td{border:none;background:none;padding:15px;}
+
+.under #main table.tb_fix{table-layout: fixed;}
+.under #main table th.bg2{background: #001d51}
+.under #main table.td_top td{vertical-align: top}
+.under #main table.tb_block th.box_pc{display: table-cell}
+
+/* LIST STYLE */
+.under #main .list01{margin-bottom: 50px;}
+.under #main .list01 li{display: block;background: url("../images/ic_list01.png") no-repeat left 8px;background-size: 15px 15px;padding-left: 30px;margin-bottom: 25px;}
+
+/* FRAME 01 */
+.under #main .frame01{border:6px solid #a7afbd;padding: 50px;margin-bottom: 50px}
+
+/* STEP LIST */
+.under #main .step_list{}
+.under #main .step_list dl{margin-bottom: 50px;padding-bottom: 50px;position: relative;}
+.under #main .step_list dl:last-child{padding-bottom: 0}
+.under #main .step_list dl::before{width: 0;height: 0;border-style: solid;border-width: 40px 50px 0 50px;border-color: #dcd05b transparent transparent transparent;position: absolute;bottom: -25px;left: calc(50% - 50px);content: ''}
+.under #main .step_list dl:last-child::before{display: none;}
+
+/* FLEX BOX */
+.under #main .flex_box{display: flex;flex-wrap: wrap;justify-content: space-between;}
+.under #main .flex_item{width: 48%;padding: 15px;color: #fff;margin-bottom: 50px;}
+.under #main .flex_item p{margin-bottom: 15px;}
+.under #main .flex_item .center{font-size: 24px;font-weight: bold;color: #001d51;}
+.under #main .flex_item .txt{width: 90%;margin: 50px auto 0;position: relative;border-radius: 5px;background: #001d51;color: #fff;padding: 15px;}
+.under #main .flex_item .txt::before{width: 0;height: 0;border-style: solid;border-width: 0 0px 80px 50px;border-color: transparent transparent #001d51 transparent;position: absolute;top: -40px;left: 50px;content: '';z-index: -1;}
+
+.under #main .flex_img{display: flex;justify-content: space-between;}
+.under #main .flex_img p{width: 48%;}
+
+/* ANCHOR LINK */
+.under #main .list_anchor{display:flex;justify-content:center;flex-wrap: wrap;margin-bottom: 50px}
+.under #main .list_anchor li{margin:0px 1% 15px;width: 31%;}
+.under #main .list_anchor.list_2btn li{width: 48%}
+.under #main .list_anchor.list_4btn li{width: 23%}
+
+/*  FAQ LIST */
+.under #main .qa_list{}
+.under #main .qa_list dl{background: #fff;padding: 15px;box-sizing: border-box;box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.1);margin-bottom: 50px;}
+.under #main .qa_list dt{position: relative;padding-left: 50px;font-size: 18px;font-weight: bold;line-height: 1.5em;margin-bottom: 10px;border-bottom: 1px dotted #001d51;min-height: 60px;display: flex;align-items: center;}
+.under #main .qa_list dt span{position: absolute;top: 10px;left: 0;width: 40px;height: 40px;font-weight: bold;text-align:center;line-height: 40px;background: #E9E9E9;}
+.under #main .qa_list dd{position: relative;padding-left: 50px;min-height: 62px}
+.under #main .qa_list dd span{position: absolute;top: 5px;left: 0;width: 40px;height: 40px;font-weight: bold;text-align:center;line-height: 40px;color:#fff;background: #001d51;}
+
+/* BANNER */
+.under #main .bnn_list{display: flex;justify-content: center}
+
+/* ALL */
+.under #main table:last-child,
+.under #main .list_anchor:last-child,
+.under #main .list01:last-child,
+.under #main .qa_list dl:last-child,
+.under #main .frame01:last-child,
+.under #main .flex_item:last-child,
+.under #main .flex_item p:last-child,
+.under #main .step_list dl:last-child,
+.under #main .list01 li:last-child,
+.under #main .section p:last-child{margin-bottom: 0}
+
+
+/* FIX CONTACT */
+.under #main .button{margin-bottom: 0}
+
+
+/* ===========  KIJIKAKU ===========  */
+.under #main .kiji_list{}
+.under #main .kiji_list dl{display: flex;padding-bottom: 15px;margin-bottom: 15px;border-bottom: 1px dashed #ccc}
+.under #main .kiji_list dt{display: flex;align-items: center;width: 200px}
+.under #main .kiji_list dt img{margin-right: 10px}
+.under #main .kiji_list dd{width: calc(100% - 200px);display: flex;align-items: center;}
+.under #main .kiji_list dd a{display: inline-block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;max-width: 100%;}
+
+.under #main .txt_kiji{margin-bottom: 50px;}
+.under#kiji_detail #main p img{max-width: 400px;max-height: 600px;}
+
+.under #main .pagination {display: flex;justify-content: center;flex-wrap: wrap;text-align: center;margin: 30px auto 0}
+.under #main .pagination li{margin: 0 10px}
+.under #main .pagination li a{width:40px;height: 40px;text-align: center;border:1px solid  #234872;background: #fff;display: flex;text-decoration: none;color: #234872;text-decoration: none;justify-content: center;align-items: center;border-radius: 5px;transition: all ease 0.3s;}
+.under #main .pagination li:hover a,
+.under #main .pagination li.active a{background: #234872;color: #fff;}
+.under #main .pagination li.disabled {display: none}
+
+/* ===========  OVERNOTE ===========  */
+
+@media screen\0 {
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+}
+
+@supports (-ms-ime-align:auto) {
+
+}
