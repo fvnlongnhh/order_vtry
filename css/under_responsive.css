@@ -50,7 +50,7 @@
 /* TABLE  */
 .under #main table.tb_block tr th,
 .under #main table.tb_block tr th + th {display: block !important;width: 100% !important;box-sizing: border-box;border: none;}
-.under #main table.tb_block tr th.box_pc{display: none !important}
+.under #main table.tb_block tr th.pc{display: none !important}
 .under #main table.tb_block tr td{display: block !important;width: 100% !important;box-sizing: border-box;border-top: none;}
 .under #main table.tb_block tr th {border-bottom: none;background: #f6f7f9}
 .under #main table.tb_block tr:nth-child(odd){background: none;}
@@ -63,8 +63,8 @@
 .under #main .big{font-size: 18px}
 .under #main table th{font-size: 16px}
 .under #main table.td_price td{font-size: 16px;align-items: center;}
-.under #main table.tb_txt tr td.tb_label{margin-top: 50px;position: relative}
-.under #main table.tb_txt tr td.tb_label::before{content: attr(data-label);font-size: 16px;color: #fff;background: #00c5b4;width: calc(100% + 2px);height: 50px;position: absolute;top: -50px;left: -1px;line-height: 50px;text-align: center}
+.under #main table.tb_data td.tb_label{margin-top: 50px;position: relative}
+.under #main table.tb_data td.tb_label::before{content: attr(data-label);font-size: 18px;color: #fff;background: #eb831c;width: calc(100% + 2px);height: 50px;position: absolute;top: -50px;left: -1px;line-height: 50px;text-align: center}
 
 /* STEP LIST */
 .under #main .qa_list dl{margin-bottom: 30px}
